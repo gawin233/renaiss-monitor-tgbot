@@ -34,14 +34,18 @@ python renaiss.py
 ```
 
 📝 常用命令
+```
 /start - 激活机器人并查看功能。
 /monitor [用户链接] - 添加一个要追踪的 Renaiss 用户地址。
 /list - 查看当前正在监控的目标。
+```
 
 📄 存储文件说明
+```
 renaiss_users_data.json: 存储订阅了推送的 TG 用户 ID。
 renaiss_v12_deals.json: 捡漏推送历史，防止重复。
 renaiss_user_activity.json: 用户动态的最后状态缓存。
+```
 
 免责声明：本脚本仅用于个人学习和自动化实验，请遵守 Renaiss 平台的使用协议。
 
@@ -76,14 +80,17 @@ Alternatively, you can manually fill in the token on line 12 of renaiss.py.
 python renaiss.py
 ```
 📝 Commands
+```
 /start - Activate the bot and view available functions.
 /monitor [URL] - Add a specific Renaiss user profile to your tracking list.
 /list - View all currently tracked targets.
+```
 
 📄 Storage Files
+```
 renaiss_users_data.json: Stores Telegram User IDs subscribed to alerts.
 renaiss_v12_deals.json: History of pushed deals to prevent duplicates.
 renaiss_user_activity.json: Cache for user activity status to detect new events.
-
+```
 ⚠️ Disclaimer
 This script is for educational and experimental purposes only. Users are responsible for complying with the Renaiss platform's Terms of Service. The author assumes no responsibility for any account-related risks or financial losses.
