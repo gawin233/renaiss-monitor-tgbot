@@ -47,7 +47,7 @@ renaiss_v12_deals.json: 捡漏推送历史，防止重复。
 renaiss_user_activity.json: 用户动态的最后状态缓存。
 ```
 
-免责声明：本脚本仅用于个人学习和自动化实验，请遵守 Renaiss 平台的使用协议。
+⚠️ ⚠️ ⚠️ 免责声明：本脚本仅用于个人学习和自动化实验，请遵守 Renaiss 平台的使用协议。⚠️ ⚠️ ⚠️ 
 
 Renaiss Monitor TG-Bot (v36.7)
 Renaiss marketplace monitor. Real-time arbitrage detection (Price < FMV), user activity tracking, and Telegram bot integration. High-efficiency tool with local data persistence.
@@ -92,5 +92,5 @@ renaiss_users_data.json: Stores Telegram User IDs subscribed to alerts.
 renaiss_v12_deals.json: History of pushed deals to prevent duplicates.
 renaiss_user_activity.json: Cache for user activity status to detect new events.
 ```
-⚠️ Disclaimer
-This script is for educational and experimental purposes only. Users are responsible for complying with the Renaiss platform's Terms of Service. The author assumes no responsibility for any account-related risks or financial losses.
+⚠️⚠️ ⚠️  Disclaimer
+This script is for educational and experimental purposes only. Users are responsible for complying with the Renaiss platform's Terms of Service. The author assumes no responsibility for any account-related risks or financial losses.⚠️ ⚠️ ⚠️ 
