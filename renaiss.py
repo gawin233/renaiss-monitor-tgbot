@@ -8,7 +8,7 @@ from playwright.async_api import async_playwright
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Defaults
 
-# ================= 配置部分 (建议发布到 GitHub 前删除具体数值) =================
+# ================= 配置部分  =================
 # 建议：通过环境变量获取，或提醒用户在此处填写
 TG_TOKEN = os.getenv("TG_TOKEN", "在此处填写你的机器人Token") 
 REFRESH_INTERVAL = 60  # 监控轮询间隔（秒）
